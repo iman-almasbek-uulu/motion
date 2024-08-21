@@ -1,2 +1,80 @@
-/*  */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0% auto;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.logo {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100px;
+}
+.login {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.div{
+  width: 400px;
+  margin: 0 0 0 200px;
+}
+p {
+  margin: 10px 0px 30px 0px;
+  color: rgba(0, 0, 0, 0.646);
+  font-family: sans-serif;
+}
+nav {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.in1,
+.in2 {
+  width: 400px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 2px solid #00000056;
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+}
+.div2 a{
+  margin-left: -160px;
 
+}
+.div2 h5{
+  color: red;
+  font-family: sans-serif;
+  margin-right: 5px;
+  
+}
+.div2 input{
+  margin-left: 5px;
+}
+.register button{
+  width: 400px;
+  height: 35px;
+  margin-block: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: none;
+  background-color: #8DD3BB;
+}
+.register h6{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1.5px;
+  margin: auto;
+}
+.register h3{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.477);
+}
